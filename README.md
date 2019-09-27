@@ -113,3 +113,15 @@ random microsatellites with a wide gap. Example on 2.5M reads:
 
 The whole thing is very fast. The 2.5M reads example took 41s
 to run on a stock Intel Pentium G4400 @ 3.30GHz.
+
+The method used to identify the kmers tends to undercount the
+reads that come from the telomere due to sequencing errors at
+the start of the reads. To get a more accurate count of each of
+the kmers, pipe the output to a file and then run:
+
+[user@serv~] perl count_overkmer.pl kmers_list reads.fastq
+
+This will compare all the kmers in the list vs. every read and
+report the true >90% coverage count, including reads that may have
+a sequencing error at the start. As there's a lot more kmer
+matching, it's slower, so don't feed it more kmers than you need!
