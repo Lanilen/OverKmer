@@ -47,7 +47,7 @@ Output should look something like this:
 As you can see, the canonical telomere repeat, its shifts, and their reverse complements
 take all the top spots.
 
-This work best with trimmed Illumina data, but given enough reads, it makes little
+This works best with trimmed Illumina data, but given enough reads, it makes little
 difference.
 
 To run the script:
