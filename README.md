@@ -25,23 +25,23 @@ other repeats, including microsatellites, never come close to the telomere.
 
 Output should look something like this:
 
-GGGTTA  12345
-CCCTAA  9656
-TTAGGG  9638
-GTTAGG  9382
-GGTTAG  9234
-CCTAAC  8341
-CTAACC  7797
-TAGGGT  7648
-AGGGTT  7043
-TAACCC  3251
-ACCCTA  3077
-AACCCT  2641
-AAAAAA  1395
-GAAAAA  129
-AAAAGA  117
-AAAAAG  110
-AAAGAA  95
+    GGGTTA  12345
+    CCCTAA  9656
+    TTAGGG  9638
+    GTTAGG  9382
+    GGTTAG  9234
+    CCTAAC  8341
+    CTAACC  7797
+    TAGGGT  7648
+    AGGGTT  7043
+    TAACCC  3251
+    ACCCTA  3077
+    AACCCT  2641
+    AAAAAA  1395
+    GAAAAA  129
+    AAAAGA  117
+    AAAAAG  110
+    AAAGAA  95
 
 
 As you can see, the canonical telomere repeat, its shifts, and their reverse complements
@@ -58,55 +58,55 @@ As mentioned, 6 is canonical in mammals. Trying with more or less than the true 
 the telomere repeat will put the poly-A and, if applicable, poly-G at the top followed by
 random microsatellites with a wide gap. Example on 2.5M reads:
 
-Length 5:
-AAAAA	27
-TTTTT	14
-AAGGA	2
-AGGAA	2
-GGAAA	2
-GGGAA	2
-AAAGG	1
-GAAGG	1
-GAAAG	1
-GGAAG	1
-GGGGG	1
+    Length 5:
+    AAAAA	27
+    TTTTT	14
+    AAGGA	2
+    AGGAA	2
+    GGAAA	2
+    GGGAA	2
+    AAAGG	1
+    GAAGG	1
+    GAAAG	1
+    GGAAG	1
+    GGGGG	1
 
-Length 6:
-AAAAAA	19
-ACCCTA	16
-CCCTAA	16
-TAACCC	16
-TTTTTT	15
-CTAACC	15
-GTTAGG	14
-AACCCT	14
-CCTAAC	14
-TTAGGG	13
-GGTTAG	12
-TAGGGT	8
-GGGTTA	8
-AGGGTT	7
-TTCTTC	3
-CACACA	3
-AAGAAG	2
-TCTTCT	2
-AGAAGA	2
-GAAGAA	2
-ACACAC	1
-GAGGAG	1
-CTTCTT	1
-GGAGGA	1
-AGGAGG	1
-GTGTGT	1
-AGGGGA	1
-TGTGTG	1
-CTCTCT	1
+    Length 6:
+    AAAAAA	19
+    ACCCTA	16
+    CCCTAA	16
+    TAACCC	16
+    TTTTTT	15
+    CTAACC	15
+    GTTAGG	14
+    AACCCT	14
+    CCTAAC	14
+    TTAGGG	13
+    GGTTAG	12
+    TAGGGT	8
+    GGGTTA	8
+    AGGGTT	7
+    TTCTTC	3
+    CACACA	3
+    AAGAAG	2
+    TCTTCT	2
+    AGAAGA	2
+    GAAGAA	2
+    ACACAC	1
+    GAGGAG	1
+    CTTCTT	1
+    GGAGGA	1
+    AGGAGG	1
+    GTGTGT	1
+    AGGGGA	1
+    TGTGTG	1
+    CTCTCT	1
 
 
-Length 7:
-AAAAAAA	19
-TTTTTTT	14
-CCGTCTC	1
-CTCCCGT	1
-CCCGTCT	1
-TCCCGTC	1
+    Length 7:
+    AAAAAAA	19
+    TTTTTTT	14
+    CCGTCTC	1
+    CTCCCGT	1
+    CCCGTCT	1
+    TCCCGTC	1
