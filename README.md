@@ -2,7 +2,7 @@
 Scripts for identifying telomere sequences with Illumina data.
 
 The idea of this script is to allow for the identification of the telomere repeat
-in any species, given a sifficient amount of Illumina reads (works with as little
+in any species, given a sufficient amount of Illumina reads (works with as little
 as 2 million).
 
 Canonically, the telomere is considered to be a repetition of the kmer CCCTAA or
