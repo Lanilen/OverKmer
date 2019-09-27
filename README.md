@@ -20,7 +20,7 @@ that the telomere one.
 
 The only other kmers that ever cover as many >90% reads as the telomere repeats are
 poly-A tails (and their reverse complement), and, in the case of untrimed 2-Channel
-SBS Illumina data, poly-G errors. In test done on moneky, human, and bird data, all
+SBS Illumina data, poly-G errors. In test done on monkey, human, and bird data, all
 other repeats, including microsatellites, never come close to the telomere.
 
 Output should look something like this:
@@ -110,3 +110,6 @@ random microsatellites with a wide gap. Example on 2.5M reads:
     CTCCCGT	1
     CCCGTCT	1
     TCCCGTC	1
+
+The whole thing is very fast. The 2.5M reads example took 41s
+to run on a stock Intel Pentium G4400 @ 3.30GHz.
